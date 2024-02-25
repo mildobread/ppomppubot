@@ -56,7 +56,7 @@ function responseFix(room, msg, sender, isGroupChat, replier, imageDB, packageNa
 
     message = '';
     switch (msg) {
-        case '.상테크알림':
+        case '.상테크알람':
             if (kakao_rooms.includes(room)) {
                 message += '이미 등록되어있음'
             }
